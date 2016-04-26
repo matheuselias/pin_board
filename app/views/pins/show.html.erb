@@ -3,6 +3,11 @@
 <p>
   <%= @pin.description %>
 </p>
+<p>
+  Submitted by
+  <%= @pin.user.email %>
+</p>
+<br>
 
 
 <%= link_to "Back", root_path %>
